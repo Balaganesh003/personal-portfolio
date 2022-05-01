@@ -150,10 +150,9 @@ body {
 /* PROJECTS */
 
 .section-projects {
-  padding-top: 10rem;
-  padding-bottom: 3rem;
   max-width: 110rem;
   margin: 0 auto;
+  padding: 10rem 5rem 3rem 5rem;
 }
 
 .projects-title {
@@ -183,7 +182,6 @@ body {
 }
 
 .project:hover {
-  /* transform: translateY(-1.2rem); */
   box-shadow: 0 0 4rem rgba(255, 255, 255, 0.461);
   transform: scale(1.1);
 }
@@ -220,8 +218,7 @@ body {
 .section-skills {
   max-width: 110rem;
   margin: 0 auto;
-  padding-bottom: 5rem;
-  padding-top: 10rem;
+  padding: 10rem 5rem 5rem 5rem;
 }
 
 .skills-title {
@@ -302,7 +299,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 10rem;
   align-items: center;
-  padding: 10rem 0;
+  padding: 10rem 5rem;
 }
 
 .about-me-photo img {
@@ -382,3 +379,4 @@ body {
   text-align: center;
   margin-bottom: 5rem;
 }
+
